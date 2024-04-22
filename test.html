@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style2.css" >
+</head>
+<body>
+    <div class="contrainer" id="blur">
+        <div class="content">
+            <h3>qhsdklhKDHqklhdQKDHlkqhdklqhd
+                dhlkqHDKLhqlkdqhD
+            </h3>
+            <img src="./assets/images/service-icon-1.png"><br>
+            <a href="#" onclick="toggle()">Read more</a>
+        </div>
+    </div>
+    <div id="popup">
+        <h2>L'analyse des sentiments </h2>
+        <p>L'analyse des sentiments est le processus qui consiste à analyser un texte numérique pour déterminer si le ton émotionnel du message est positif, ...
+            Termes manquants | Afficher les résultats avec : ai</p>
+            <a href="#" onclick="toggle()">cloas</a>
+
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
